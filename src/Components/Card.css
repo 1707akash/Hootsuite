@@ -1,0 +1,13 @@
+
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.cards img{
+    height: 13.5rem;
+    width: 15rem;
+    margin-left: 2rem;
+}
