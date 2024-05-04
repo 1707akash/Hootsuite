@@ -1,0 +1,45 @@
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+}
+.logoImg{
+    height: 2.5rem;
+    width: 8rem;
+}
+.navleft{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navlist{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+.navlist li{
+    list-style: none;
+    font-weight: 600;
+}
+
+.navright{
+    display: flex;
+    /* gap: 0.5rem; */
+    width: 20%;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+}
+.navright button{
+    background-color: #2c8840;
+    border: none;
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 3px;
+}
+.navright a{
+    color: #666;
+    text-decoration: none;
+}
